@@ -1,0 +1,55 @@
+================================================================================
+COFFEE SALES DATA ANALYSIS
+================================================================================
+Analysis Date: 2026-06-09 19:54:39
+
+RAW DATA:
+--------------------------------------------------------------------------------
+          Day Coffee Type  Units Sold
+0      Monday    Espresso          25
+1      Monday       Latte          15
+2     Tuesday    Espresso          30
+3     Tuesday       Latte          20
+4   Wednesday    Espresso          35
+5   Wednesday       Latte          25
+6    Thursday    Espresso          40
+7    Thursday       Latte          30
+8      Friday    Espresso          45
+9      Friday       Latte          35
+10   Saturday    Espresso          45
+11   Saturday       Latte          35
+12     Sunday    Espresso          45
+13     Sunday       Latte          35
+
+================================================================================
+1. DAILY COFFEE TYPE BREAKDOWN
+================================================================================
+Coffee Type  Espresso  Latte
+Day                         
+Friday             45     35
+Monday             25     15
+Saturday           45     35
+Sunday             45     35
+Thursday           40     30
+Tuesday            30     20
+Wednesday          35     25
+
+================================================================================
+2. TOTAL SALES ON EACH DAY
+================================================================================
+Day
+Monday       40
+Tuesday      50
+Wednesday    60
+Thursday     70
+Friday       80
+Saturday     80
+Sunday       80
+Name: Units Sold, dtype: int64
+
+================================================================================
+3. HIGHEST AND LOWEST SALES DAYS
+================================================================================
+Highest Sales Day: Friday with 80 units sold
+Lowest Sales Day: Monday with 40 units sold
+
